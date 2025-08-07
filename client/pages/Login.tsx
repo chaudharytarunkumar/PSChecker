@@ -118,12 +118,6 @@ export default function Login() {
                   </Alert>
                 )}
 
-                <Alert>
-                  <AlertDescription>
-                    <strong>Admin Login:</strong> admin@securepass.com / SecurePass2024!
-                  </AlertDescription>
-                </Alert>
-
                 <Button type="submit" className="w-full" disabled={isLoading}>
                   {isLoading ? 'Signing In...' : 'Sign In'}
                 </Button>
